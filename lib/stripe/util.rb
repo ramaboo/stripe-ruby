@@ -19,7 +19,7 @@ module Stripe
       @object_classes ||= {
         # data structures
         'list' => ListObject,
-        
+
         # business objects
         'application_fee' => ApplicationFee,
         'balance' => Balance,
@@ -35,8 +35,9 @@ module Stripe
         'plan' => Plan,
         'recipient' => Recipient,
         'refund' => Refund,
-        'subscription' => Subscription,        
-        'transfer' => Transfer
+        'subscription' => Subscription,
+        'transfer' => Transfer,
+        'bitcoin_receiver' => BitcoinReceiver
       }
     end
 
