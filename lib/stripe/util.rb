@@ -37,7 +37,8 @@ module Stripe
         'refund' => Refund,
         'subscription' => Subscription,
         'transfer' => Transfer,
-        'bitcoin_receiver' => BitcoinReceiver
+        'bitcoin_receiver' => BitcoinReceiver,
+        'bitcoin_transaction' => BitcoinTransaction
       }
     end
 
